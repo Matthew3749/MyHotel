@@ -174,7 +174,7 @@ struct LoginView: View {
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .transition(.asymmetric(insertion: .opacity, removal: .move(edge: .leading)))
+        .animation(Animation.default.delay(2), value: router.currentScreen)
         .background {
             Color.mhNavyBlue
                 .ignoresSafeArea(.all)

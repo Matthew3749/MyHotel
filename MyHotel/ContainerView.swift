@@ -16,8 +16,10 @@ struct ContainerView: View {
             switch router.currentScreen {
             case .landing:
                 LoginView()
+                    .zIndex(0.0)
             case .home:
                 HomeView()
+                    .zIndex(1.0)
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
