@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D2023252C08590D004FAF9F /* SpaceGrotesk-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D20231F2C08590D004FAF9F /* SpaceGrotesk-Bold.ttf */; };
+		5D2023262C08590D004FAF9F /* SpaceGrotesk-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D2023202C08590D004FAF9F /* SpaceGrotesk-Light.ttf */; };
+		5D2023272C08590D004FAF9F /* SpaceGrotesk-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D2023212C08590D004FAF9F /* SpaceGrotesk-Medium.ttf */; };
+		5D2023282C08590D004FAF9F /* SpaceGrotesk-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D2023222C08590D004FAF9F /* SpaceGrotesk-Regular.ttf */; };
+		5D2023292C08590D004FAF9F /* SpaceGrotesk-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D2023232C08590D004FAF9F /* SpaceGrotesk-SemiBold.ttf */; };
+		5D20232B2C08595E004FAF9F /* MyHotelFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D20232A2C08595E004FAF9F /* MyHotelFont.swift */; };
 		9700A9A12C08087800EDFEE6 /* HomeContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9700A9A02C08087800EDFEE6 /* HomeContainerView.swift */; };
-		9700A9A32C081B6C00EDFEE6 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9700A9A22C081B6C00EDFEE6 /* GoogleService-Info-2.plist */; };
 		9700A9A62C081E5300EDFEE6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9700A9A52C081E5300EDFEE6 /* FirebaseAnalytics */; };
-		97635A102C08424600D51CD9 /* SpaceGrotesk-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97635A0F2C08424600D51CD9 /* SpaceGrotesk-VariableFont_wght.ttf */; };
 		977A3C122C053D2B0039A745 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977A3C112C053D2B0039A745 /* LoginView.swift */; };
 		97B3E0FD2C047A560057270D /* MyHotelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3E0FC2C047A560057270D /* MyHotelApp.swift */; };
 		97B3E0FF2C047A560057270D /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3E0FE2C047A560057270D /* ContainerView.swift */; };
@@ -19,9 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D20231F2C08590D004FAF9F /* SpaceGrotesk-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Bold.ttf"; sourceTree = "<group>"; };
+		5D2023202C08590D004FAF9F /* SpaceGrotesk-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Light.ttf"; sourceTree = "<group>"; };
+		5D2023212C08590D004FAF9F /* SpaceGrotesk-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Medium.ttf"; sourceTree = "<group>"; };
+		5D2023222C08590D004FAF9F /* SpaceGrotesk-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Regular.ttf"; sourceTree = "<group>"; };
+		5D2023232C08590D004FAF9F /* SpaceGrotesk-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-SemiBold.ttf"; sourceTree = "<group>"; };
+		5D20232A2C08595E004FAF9F /* MyHotelFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHotelFont.swift; sourceTree = "<group>"; };
 		9700A9A02C08087800EDFEE6 /* HomeContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContainerView.swift; sourceTree = "<group>"; };
-		9700A9A22C081B6C00EDFEE6 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-2.plist"; path = "../../../Downloads/GoogleService-Info-2.plist"; sourceTree = "<group>"; };
-		97635A0F2C08424600D51CD9 /* SpaceGrotesk-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SpaceGrotesk-VariableFont_wght.ttf"; path = "../../../Downloads/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		97635A112C0845CC00D51CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		977A3C112C053D2B0039A745 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		97B3E0F92C047A560057270D /* MyHotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +51,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D20231E2C085901004FAF9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D2023242C08590D004FAF9F /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5D2023242C08590D004FAF9F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5D20231F2C08590D004FAF9F /* SpaceGrotesk-Bold.ttf */,
+				5D2023202C08590D004FAF9F /* SpaceGrotesk-Light.ttf */,
+				5D2023212C08590D004FAF9F /* SpaceGrotesk-Medium.ttf */,
+				5D2023222C08590D004FAF9F /* SpaceGrotesk-Regular.ttf */,
+				5D2023232C08590D004FAF9F /* SpaceGrotesk-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		97B3E0F02C047A560057270D = {
 			isa = PBXGroup;
 			children = (
@@ -67,9 +95,9 @@
 				97B3E0FE2C047A560057270D /* ContainerView.swift */,
 				977A3C112C053D2B0039A745 /* LoginView.swift */,
 				9700A9A02C08087800EDFEE6 /* HomeContainerView.swift */,
+				5D20232A2C08595E004FAF9F /* MyHotelFont.swift */,
 				97B3E1002C047A590057270D /* Assets.xcassets */,
-				97635A0F2C08424600D51CD9 /* SpaceGrotesk-VariableFont_wght.ttf */,
-				9700A9A22C081B6C00EDFEE6 /* GoogleService-Info-2.plist */,
+				5D20231E2C085901004FAF9F /* Resources */,
 				97B3E1022C047A590057270D /* Preview Content */,
 			);
 			path = MyHotel;
@@ -147,10 +175,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97635A102C08424600D51CD9 /* SpaceGrotesk-VariableFont_wght.ttf in Resources */,
+				5D2023272C08590D004FAF9F /* SpaceGrotesk-Medium.ttf in Resources */,
+				5D2023252C08590D004FAF9F /* SpaceGrotesk-Bold.ttf in Resources */,
+				5D2023282C08590D004FAF9F /* SpaceGrotesk-Regular.ttf in Resources */,
 				97B3E1042C047A590057270D /* Preview Assets.xcassets in Resources */,
+				5D2023262C08590D004FAF9F /* SpaceGrotesk-Light.ttf in Resources */,
+				5D2023292C08590D004FAF9F /* SpaceGrotesk-SemiBold.ttf in Resources */,
 				97B3E1012C047A590057270D /* Assets.xcassets in Resources */,
-				9700A9A32C081B6C00EDFEE6 /* GoogleService-Info-2.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +196,7 @@
 				9700A9A12C08087800EDFEE6 /* HomeContainerView.swift in Sources */,
 				97B3E0FF2C047A560057270D /* ContainerView.swift in Sources */,
 				97B3E0FD2C047A560057270D /* MyHotelApp.swift in Sources */,
+				5D20232B2C08595E004FAF9F /* MyHotelFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +339,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,6 +370,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
