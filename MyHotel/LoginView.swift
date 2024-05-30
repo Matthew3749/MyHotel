@@ -21,7 +21,7 @@ struct LoginView: View {
     @State private var showRoomNumberOverlay = true
     @State private var showLastNameOverlay = true
     @State private var cardSize: CGSize = .zero
-
+    
     var body: some View {
         ZStack {
             VStack {
@@ -53,7 +53,7 @@ struct LoginView: View {
                         .foregroundStyle(.mhSubtext)
                         .padding(.top, 20)
                         .padding(.bottom, 40)
-
+                    
                     VStack(spacing: 30) {
                         HStack(spacing: 20) {
                             Image(systemName: "door.right.hand.closed")
@@ -134,10 +134,19 @@ struct LoginView: View {
                     }
                     .padding(.horizontal, 15)
                     .padding(.bottom, 20)
-                    
                     Button(action: {
-                        withAnimation {
-                            router.currentScreen = .home
+                        if focusedField != nil {
+                            focusedField = nil
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1){
+                                withAnimation {
+                                    router.currentScreen = .home
+                                }
+                            }
+                        }
+                        else {
+                            withAnimation {
+                                router.currentScreen = .home
+                            }
                         }
                     }, label: {
                         Text("Check In")
@@ -148,6 +157,7 @@ struct LoginView: View {
                                 RoundedRectangle(cornerRadius: 7.0)
                                     .fill(.mhGold)
                             }
+                        
                     })
                     .padding(.horizontal)
                     .padding(.bottom, 25)
