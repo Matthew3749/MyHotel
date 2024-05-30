@@ -15,6 +15,7 @@ struct LoginView: View {
     }
     
     @FocusState private var focusedField: FocusedField?
+    @EnvironmentObject var router: Router
     @State private var roomNumber: String = ""
     @State private var lastname: String = ""
     @State private var showRoomNumberOverlay = true
@@ -134,7 +135,11 @@ struct LoginView: View {
                     .padding(.horizontal, 15)
                     .padding(.bottom, 20)
                     
-                    Button(action: {}, label: {
+                    Button(action: {
+                        withAnimation {
+                            router.currentScreen = .home
+                        }
+                    }, label: {
                         Text("Check In")
                             .foregroundStyle(.black)
                             .frame(height: 40)
@@ -162,15 +167,14 @@ struct LoginView: View {
                     GeometryReader { proxy in
                         HStack {}
                             .onAppear {
-                                withAnimation(.bouncy) {
-                                    cardSize = proxy.size
-                                }
+                                cardSize = proxy.size
                             }
                     }
                 )
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .transition(.asymmetric(insertion: .opacity, removal: .move(edge: .leading)))
         .background {
             Color.mhNavyBlue
                 .ignoresSafeArea(.all)
@@ -180,4 +184,5 @@ struct LoginView: View {
 
 #Preview {
     LoginView()
+        .environmentObject(Router())
 }

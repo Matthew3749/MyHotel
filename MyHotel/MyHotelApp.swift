@@ -20,8 +20,8 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 struct MyHotelApp: App {
     var body: some Scene {
         WindowGroup {
-            LoginView()
-                .environmentObject(KeyboardManager())
+            ContainerView()
+                .environmentObject(Router())
         }
     }
 }

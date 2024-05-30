@@ -14,11 +14,12 @@
 		5D2023292C08590D004FAF9F /* SpaceGrotesk-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D2023232C08590D004FAF9F /* SpaceGrotesk-SemiBold.ttf */; };
 		5D20232B2C08595E004FAF9F /* MyHotelFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D20232A2C08595E004FAF9F /* MyHotelFont.swift */; };
 		5D20232F2C086ABF004FAF9F /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D20232E2C086ABF004FAF9F /* Device.swift */; };
-		9700A9A12C08087800EDFEE6 /* HomeContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9700A9A02C08087800EDFEE6 /* HomeContainerView.swift */; };
+		5DCA92F12C08745400E56DDA /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCA92F02C08745400E56DDA /* Router.swift */; };
+		5DCA92F32C0874CE00E56DDA /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCA92F22C0874CE00E56DDA /* ContainerView.swift */; };
 		9700A9A62C081E5300EDFEE6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9700A9A52C081E5300EDFEE6 /* FirebaseAnalytics */; };
 		977A3C122C053D2B0039A745 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977A3C112C053D2B0039A745 /* LoginView.swift */; };
 		97B3E0FD2C047A560057270D /* MyHotelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3E0FC2C047A560057270D /* MyHotelApp.swift */; };
-		97B3E0FF2C047A560057270D /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3E0FE2C047A560057270D /* ContainerView.swift */; };
+		97B3E0FF2C047A560057270D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3E0FE2C047A560057270D /* HomeView.swift */; };
 		97B3E1012C047A590057270D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B3E1002C047A590057270D /* Assets.xcassets */; };
 		97B3E1042C047A590057270D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B3E1032C047A590057270D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -31,12 +32,13 @@
 		5D2023232C08590D004FAF9F /* SpaceGrotesk-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-SemiBold.ttf"; sourceTree = "<group>"; };
 		5D20232A2C08595E004FAF9F /* MyHotelFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHotelFont.swift; sourceTree = "<group>"; };
 		5D20232E2C086ABF004FAF9F /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
-		9700A9A02C08087800EDFEE6 /* HomeContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContainerView.swift; sourceTree = "<group>"; };
+		5DCA92F02C08745400E56DDA /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		5DCA92F22C0874CE00E56DDA /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 		97635A112C0845CC00D51CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		977A3C112C053D2B0039A745 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		97B3E0F92C047A560057270D /* MyHotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B3E0FC2C047A560057270D /* MyHotelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHotelApp.swift; sourceTree = "<group>"; };
-		97B3E0FE2C047A560057270D /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		97B3E0FE2C047A560057270D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		97B3E1002C047A590057270D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97B3E1032C047A590057270D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,9 +96,10 @@
 			children = (
 				97635A112C0845CC00D51CD9 /* Info.plist */,
 				97B3E0FC2C047A560057270D /* MyHotelApp.swift */,
-				97B3E0FE2C047A560057270D /* ContainerView.swift */,
+				5DCA92F22C0874CE00E56DDA /* ContainerView.swift */,
+				5DCA92F02C08745400E56DDA /* Router.swift */,
 				977A3C112C053D2B0039A745 /* LoginView.swift */,
-				9700A9A02C08087800EDFEE6 /* HomeContainerView.swift */,
+				97B3E0FE2C047A560057270D /* HomeView.swift */,
 				5D20232A2C08595E004FAF9F /* MyHotelFont.swift */,
 				5D20232E2C086ABF004FAF9F /* Device.swift */,
 				97B3E1002C047A590057270D /* Assets.xcassets */,
@@ -196,10 +199,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				977A3C122C053D2B0039A745 /* LoginView.swift in Sources */,
-				9700A9A12C08087800EDFEE6 /* HomeContainerView.swift in Sources */,
-				97B3E0FF2C047A560057270D /* ContainerView.swift in Sources */,
+				97B3E0FF2C047A560057270D /* HomeView.swift in Sources */,
+				5DCA92F12C08745400E56DDA /* Router.swift in Sources */,
 				97B3E0FD2C047A560057270D /* MyHotelApp.swift in Sources */,
 				5D20232F2C086ABF004FAF9F /* Device.swift in Sources */,
+				5DCA92F32C0874CE00E56DDA /* ContainerView.swift in Sources */,
 				5D20232B2C08595E004FAF9F /* MyHotelFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
