@@ -21,6 +21,7 @@ struct MyHotelApp: App {
     var body: some Scene {
         WindowGroup {
             LoginView()
+                .environmentObject(KeyboardManager())
         }
     }
 }
