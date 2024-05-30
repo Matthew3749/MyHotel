@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContainerView: View {
     var body: some View {
         VStack {
             Image(systemName: "square.and.arrow.up")
@@ -20,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContainerView()
 }

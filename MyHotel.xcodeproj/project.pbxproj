@@ -7,16 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9700A9A12C08087800EDFEE6 /* HomeContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9700A9A02C08087800EDFEE6 /* HomeContainerView.swift */; };
+		9700A9A32C081B6C00EDFEE6 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9700A9A22C081B6C00EDFEE6 /* GoogleService-Info-2.plist */; };
+		9700A9A62C081E5300EDFEE6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9700A9A52C081E5300EDFEE6 /* FirebaseAnalytics */; };
+		97635A102C08424600D51CD9 /* SpaceGrotesk-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97635A0F2C08424600D51CD9 /* SpaceGrotesk-VariableFont_wght.ttf */; };
+		977A3C122C053D2B0039A745 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977A3C112C053D2B0039A745 /* LoginView.swift */; };
 		97B3E0FD2C047A560057270D /* MyHotelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3E0FC2C047A560057270D /* MyHotelApp.swift */; };
-		97B3E0FF2C047A560057270D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3E0FE2C047A560057270D /* ContentView.swift */; };
+		97B3E0FF2C047A560057270D /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B3E0FE2C047A560057270D /* ContainerView.swift */; };
 		97B3E1012C047A590057270D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B3E1002C047A590057270D /* Assets.xcassets */; };
 		97B3E1042C047A590057270D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B3E1032C047A590057270D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9700A9A02C08087800EDFEE6 /* HomeContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContainerView.swift; sourceTree = "<group>"; };
+		9700A9A22C081B6C00EDFEE6 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-2.plist"; path = "../../../Downloads/GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		97635A0F2C08424600D51CD9 /* SpaceGrotesk-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SpaceGrotesk-VariableFont_wght.ttf"; path = "../../../Downloads/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		97635A112C0845CC00D51CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		977A3C112C053D2B0039A745 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		97B3E0F92C047A560057270D /* MyHotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B3E0FC2C047A560057270D /* MyHotelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHotelApp.swift; sourceTree = "<group>"; };
-		97B3E0FE2C047A560057270D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97B3E0FE2C047A560057270D /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 		97B3E1002C047A590057270D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97B3E1032C047A590057270D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -26,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9700A9A62C081E5300EDFEE6 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +62,14 @@
 		97B3E0FB2C047A560057270D /* MyHotel */ = {
 			isa = PBXGroup;
 			children = (
+				97635A112C0845CC00D51CD9 /* Info.plist */,
 				97B3E0FC2C047A560057270D /* MyHotelApp.swift */,
-				97B3E0FE2C047A560057270D /* ContentView.swift */,
+				97B3E0FE2C047A560057270D /* ContainerView.swift */,
+				977A3C112C053D2B0039A745 /* LoginView.swift */,
+				9700A9A02C08087800EDFEE6 /* HomeContainerView.swift */,
 				97B3E1002C047A590057270D /* Assets.xcassets */,
+				97635A0F2C08424600D51CD9 /* SpaceGrotesk-VariableFont_wght.ttf */,
+				9700A9A22C081B6C00EDFEE6 /* GoogleService-Info-2.plist */,
 				97B3E1022C047A590057270D /* Preview Content */,
 			);
 			path = MyHotel;
@@ -83,6 +99,9 @@
 			dependencies = (
 			);
 			name = MyHotel;
+			packageProductDependencies = (
+				9700A9A52C081E5300EDFEE6 /* FirebaseAnalytics */,
+			);
 			productName = MyHotel;
 			productReference = 97B3E0F92C047A560057270D /* MyHotel.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +130,9 @@
 				Base,
 			);
 			mainGroup = 97B3E0F02C047A560057270D;
+			packageReferences = (
+				9700A9A42C081CE900EDFEE6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 97B3E0FA2C047A560057270D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +147,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97635A102C08424600D51CD9 /* SpaceGrotesk-VariableFont_wght.ttf in Resources */,
 				97B3E1042C047A590057270D /* Preview Assets.xcassets in Resources */,
 				97B3E1012C047A590057270D /* Assets.xcassets in Resources */,
+				9700A9A32C081B6C00EDFEE6 /* GoogleService-Info-2.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97B3E0FF2C047A560057270D /* ContentView.swift in Sources */,
+				977A3C122C053D2B0039A745 /* LoginView.swift in Sources */,
+				9700A9A12C08087800EDFEE6 /* HomeContainerView.swift in Sources */,
+				97B3E0FF2C047A560057270D /* ContainerView.swift in Sources */,
 				97B3E0FD2C047A560057270D /* MyHotelApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +301,7 @@
 				DEVELOPMENT_TEAM = Q9R8RN364P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyHotel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +331,7 @@
 				DEVELOPMENT_TEAM = Q9R8RN364P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyHotel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +372,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9700A9A42C081CE900EDFEE6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.27.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9700A9A52C081E5300EDFEE6 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9700A9A42C081CE900EDFEE6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 97B3E0F12C047A560057270D /* Project object */;
 }
